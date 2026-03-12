@@ -1,0 +1,46 @@
+### Get all products
+GET http://localhost:3000/product-api/products
+
+
+### Get product by brand
+GET http://localhost:3000/product-api/products/pentonic
+
+
+### Add new product
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "id": 101,
+  "name": "Pen",
+  "brand": "pentonic",
+  "price": 5
+}
+
+
+### Add another product
+POST http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "id": 102,
+  "name": "Notebook",
+  "brand": "classmate",
+  "price": 50
+}
+
+
+### Update product
+PUT http://localhost:3000/product-api/products
+Content-Type: application/json
+
+{
+  "id": 101,
+  "name": "Pencil",
+  "brand": "apsara",
+  "price": 10
+}
+
+
+### Delete product
+DELETE http://localhost:3000/product-api/products/101
