@@ -52,12 +52,6 @@ node filename.js
 Example:
 
 node app.js
-🚀 Next Step
-Working with APIs (Fetch / Axios)
-Express.js backend development
-MongoDB integration
-Authentication & Middleware
-📌 Note
-This is part of Week 2 practice aimed at strengthening intermediate JavaScript skills, forming a solid base for backend development in the MERN stack.
+
 
 
